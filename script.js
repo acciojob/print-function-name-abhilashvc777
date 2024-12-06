@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const Abhilash = function(){
+ function Abhilash(){
 	 return arguments.callee.name
 }
 alert(Abhilash())
