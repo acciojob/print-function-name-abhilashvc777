@@ -1,5 +1,5 @@
 //your JS code here. If required.
  function Abhilash(){
-	 return arguments.callee.name
+	 return Abhilash.name
 }
 alert(Abhilash())
