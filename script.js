@@ -1,5 +1,5 @@
 //your JS code here. If required.
- function Abhilash(){
-	 return Abhilash.name
+ function functionName(){
+	 const name = arguments.callee.name
+	 alert(name)
 }
-alert(Abhilash())
